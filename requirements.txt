@@ -1,0 +1,17 @@
+tyro
+torch ==2.6.0
+torchmetrics
+accelerate
+safetensors
+wandb
+numpy >=1.26.0, < 2.0.0
+opencv-python
+tifffile
+h5py
+scipy
+PyYAML
+kiui
+xformers
+torchsummary
+onnx
+onnxruntime

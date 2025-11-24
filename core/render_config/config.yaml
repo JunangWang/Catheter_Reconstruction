@@ -1,0 +1,31 @@
+# System configuration
+DSD: 1200.0  # Distance Source Detector      (mm)
+DSO: 788.0  # Distance Source Origin        (mm)
+
+# Detector parameters
+nDetector: # Number of pixels              (px)
+- 512 
+- 512
+sPixel: # Size of each pixel            (mm)
+- 0.826
+- 0.826
+
+# Image parameters
+nVoxel: # Number of voxels              (vx)
+- 512
+- 512
+- 512 
+sVoxel: # size of each voxel            (mm)
+- 0.53
+- 0.53
+- 0.53
+
+# Offsets
+offOrigin: # Offset of image from origin   (mm)
+- 0 # x direction
+- 0 # y direction
+- 0 # z direction
+offDetector: # Offset of Detector (only in two direction)            (mm)
+- 0 # u direction
+- 0 # v direction
+
